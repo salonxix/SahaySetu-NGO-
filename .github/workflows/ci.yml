@@ -91,3 +91,6 @@ jobs:
         run: npm run build
         env:
           NEXT_TELEMETRY_DISABLED: 1
+          AUTH_SECRET: "sahaysetu-secure-development-secret-key-32chars!"
+          NEXT_PUBLIC_APP_NAME: "SahaySetu NGO"
+          NEXT_PUBLIC_APP_URL: "http://localhost:3000"
